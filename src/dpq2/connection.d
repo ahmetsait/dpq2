@@ -82,7 +82,7 @@ struct ConnectionStart {};
 /// Connection
 class Connection
 {
-    package PGconn* conn;
+    public PGconn* conn;
 
     invariant
     {
