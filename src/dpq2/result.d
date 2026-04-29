@@ -122,6 +122,7 @@ immutable class Answer : Result
     {
         switch(status)
         {
+            case PGRES_EMPTY_QUERY:
             case PGRES_COMMAND_OK:
             case PGRES_TUPLES_OK:
             case PGRES_SINGLE_TUPLE:
